@@ -55,7 +55,8 @@ class CXRDataset(Dataset):
             'Emphysema',
             'Fibrosis',
             'Pleural_Thickening',
-            'Hernia']
+            'Hernia',
+            'COVID-19']
         RESULT_PATH = "results/"
 
     def __len__(self):
